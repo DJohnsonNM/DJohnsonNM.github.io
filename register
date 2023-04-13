@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+  
+	<title>Participant Information System</title>
+  
+	<link rel="icon" href="favicon.ico" sizes="32x32">
+	<link rel="icon" href="apple-touch-icon.png" sizes="128x128">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	
+  <link rel="stylesheet" href="assets/themes/FlatSIS/stylesheet.css?v=10.9">
+	<style>.highlight,.highlight-hover:hover{background-color:#FFFFFF !important;}</style>
+		<noscript>
+		<meta http-equiv="REFRESH" content="0; url=index.php?modfunc=logout&reason=javascript&token=da47966dfcb2f5b9b2c2fed092b60243">
+	</noscript>
+</head>
+<body class="login">
+	<div id="body" tabindex="0" role="main" class="mod">
+<div class="postbox-wrapper"><table class="postbox cellspacing-0">
+			<thead><tr><th class="center"><h3 class="title">NM&nbsp;Learning&nbsp;Project&nbsp;Login</h3></th></tr></thead>
+			<tbody><tr><td class="popTable">
+	<img src="assets/themes/FlatSIS/logo.png" class="logo center" alt="Logo">
+	<h4 class="center">Participant Information System</h4>
+	<form name="loginform" id="loginform" method="post">
+	<table class="cellspacing-0 width-100p">
+
+	
+		<tbody><tr>
+			<td>
+				<label>
+					<input type="text" name="USERNAME" id="USERNAME" size="20" maxlength="100" required="" autofocus="">
+					Username				</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>
+					<input type="password" name="PASSWORD" id="PASSWORD" size="20" maxlength="42" required="">
+					Password				</label>
+				<div class="align-right">
+					<a href="PasswordReset.php" rel="nofollow">
+						Password help					</a>
+				</div>
+			</td>
+		</tr>
+	</tbody></table>
+	<p class="center">
+		<input type="submit" value="Login" class="button-primary">
+	</p>
+
+	
+	
+		<p class="align-right">
+			<a href="index.php?create_account=user&amp;staff_id=new" rel="nofollow">
+				Create User Account			</a>
+		</p>
+
+	
+		<p class="align-right">
+			<a href="index.php?create_account=student&amp;student_id=new" rel="nofollow">
+				Create Student Account			</a>
+		</p>
+
+		</form>
+	<input class="toggle" type="checkbox" id="toggle1">
+	<label class="toggle" for="toggle1">About</label>
+	<div class="about-rosariosis toggle-me">
+				<p class="size-3">
+			This is a restricted network. Use of this network, its equipment, and resources is monitored at all times and requires explicit permission from the network administrator and Participant Information System. If you do not have this permission in writing, you are violating the regulations of this network and can and will be prosecuted to the full extent of the law. By continuing into this system, you are acknowledging that you are aware of and agree to these terms.		</p>
+		<p class="center">
+			RosarioSIS version 10.9		</p>
+		<p class="center size-1">
+			© 2004-2009 The Miller Group &amp; Learners Circle
+			<br>© 2012-2023 <a href="https://www.rosariosis.org" noreferrer="">RosarioSIS</a>
+		</p>
+	</div>
+
+</td></tr></tbody></table></div><br>
+		</div><!-- #body -->
+	
+			</body></html>
